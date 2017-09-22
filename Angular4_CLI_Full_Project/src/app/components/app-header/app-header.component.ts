@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,18 +6,17 @@ import { Component } from '@angular/core';
 })
 export class AppHeader {
 
-  // public disabled = false;
-  // public status: {isopen: boolean} = {isopen: false};
-  //
-  // public toggled(open: boolean): void {
-  //   console.log('Dropdown is now: ', open);
-  // }
-  //
-  // public toggleDropdown($event: MouseEvent): void {
-  //   $event.preventDefault();
-  //   $event.stopPropagation();
-  //   this.status.isopen = !this.status.isopen;
-  // }
+  constructor(private el: ElementRef) { }
 
-  ngOnInit(): void {}
+  //wait for the component to render completely
+  ngOnInit(): void {
+    var nativeElement: HTMLElement = this.el.nativeElement,
+    parentElement: HTMLElement = nativeElement.parentElement;
+    // move all children out of the element
+    while (nativeElement.firstChild) {
+      parentElement.insertBefore(nativeElement.firstChild, nativeElement);
+    }
+    // remove the empty element(the host)
+    parentElement.removeChild(nativeElement);
+  }
 }
