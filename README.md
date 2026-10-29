@@ -72,8 +72,8 @@ customize your project for almost any device – be it Mobile, Web or WebApp –
 
 ## Quick Start
 
-- [Download the latest release](https://github.com/coreui/coreui-free-angular-admin-template/)
-- Clone the repo: `git clone https://github.com/coreui/coreui-free-angular-admin-template.git`
+- [Download the latest release](https://github.com/thecodewall/fleetpulse-admin/)
+- Clone the repo: `git clone https://github.com/thecodewall/fleetpulse-admin.git`
 
 #### <i>Prerequisites</i>
 
@@ -154,7 +154,7 @@ The documentation for the CoreUI Admin Template is hosted at our website [CoreUI
 For transparency into our release cycle and in striving to maintain backward compatibility, CoreUI Free Admin Template is maintained
 under [the Semantic Versioning guidelines](http://semver.org/).
 
-See [the Releases section of our project](https://github.com/coreui/coreui-free-angular-admin-template/releases) for changelogs for each release version.
+See [the Releases section of our project](https://github.com/thecodewall/fleetpulse-admin/releases) for changelogs for each release version.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
 
@@ -214,25 +214,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-## Creators
-
-**Łukasz Holeczek**
-
-* <https://twitter.com/lukaszholeczek>
-* <https://github.com/mrholek>
-* <https://github.com/coreui>
-
-**CoreUI team**
-
-* https://github.com/orgs/coreui/people
-
-## Community
-
-Get updates on CoreUI's development and chat with the project maintainers and community members.
-
-- Follow [@core_ui on Twitter](https://twitter.com/core_ui).
-- Read and subscribe to [CoreUI Blog](https://coreui.io/blog/).
-
 ## Support CoreUI Development
 
 CoreUI is an MIT-licensed open source project and is completely free to use. However, the amount of effort needed to maintain and develop new features for the
@@ -281,6 +262,6 @@ Thanks to all the backers and sponsors! Support this project by [becoming a back
 
 copyright 2026 creativeLabs Łukasz Holeczek.
 
-Code released under [the MIT license](https://github.com/coreui/coreui-free-react-admin-template/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/thecodewall/fleetpulse-admin/blob/master/LICENSE).
 There is only one limitation you can't re-distribute the CoreUI as stock. You can’t do this if you modify the CoreUI. In the past, we faced some problems with
 persons who tried to sell CoreUI based templates.
